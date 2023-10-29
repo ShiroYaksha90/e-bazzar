@@ -6,6 +6,9 @@
     },
     "parser": "@babel/eslint-parser",
     "parserOptions": {
+      "babelOptions":{
+        "configFile": "/home/basim/Desktop/Projects/e-bazzar/.babelrc"
+      },
       "ecmaFeatures": {
         "jsx": true
       },
