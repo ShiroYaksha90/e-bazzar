@@ -7,7 +7,7 @@
     "parser": "@babel/eslint-parser",
     "parserOptions": {
       "babelOptions":{
-        "configFile": "/home/basim/Desktop/Projects/e-bazzar/.babelrc"
+        "configFile": "/home/basim/Desktop/Projects/e-bazzar/babel.config.json"
       },
       "ecmaFeatures": {
         "jsx": true
