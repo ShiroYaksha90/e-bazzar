@@ -1,0 +1,22 @@
+{
+  "name": "e-bazzar",
+  "version": "1.0.0",
+  "description": "e-bazzar shopping app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShiroYaksha90/e-bazzar.git"
+  },
+  "author": "Basim Aljazaeri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShiroYaksha90/e-bazzar/issues"
+  },
+  "homepage": "https://github.com/ShiroYaksha90/e-bazzar#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
