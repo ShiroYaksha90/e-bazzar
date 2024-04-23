@@ -6,7 +6,7 @@ import {
   Row, Col, Image, ListGroup, Button, Form,
 } from 'react-bootstrap';
 import Message from '../components/message';
-import { addToCart } from '../actions/cartActions';
+import addToCart from '../actions/cartActions';
 
 const CartScreen = () => {
   const { id } = useParams();
@@ -19,7 +19,6 @@ const CartScreen = () => {
       dispatch(addToCart(id, qty));
     }
   }, [dispatch, id, qty]);
-  console.log(cartItems);
   return (
     <Row>
       <Col md={8}>
