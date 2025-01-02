@@ -4,8 +4,9 @@ import { useParams, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import {
   Row, Col, Image, ListGroup, Button, Form,
+  Alert,
 } from 'react-bootstrap';
-import Message from '../components/message';
+// import Message from '../components/message';
 import addToCart from '../actions/cartActions';
 
 const CartScreen = () => {
@@ -24,10 +25,10 @@ const CartScreen = () => {
       <Col md={8}>
         <h1>Shopping Cart</h1>
         {cartItems.length === 0 ? (
-          <Message>
+          <Alert variant="success">
             Your cart is empty
             <Link to="/">Go Back</Link>
-          </Message>
+          </Alert>
         ) : (
           <ListGroup variant="flush">
             {cartItems.map((item) => (
